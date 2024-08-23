@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+content="width=device-width,
+ initial-scale=1.0">
+    <title>孟轩智能客服1.1.0</title>
+    <style>
+        /* 设置整个网页的背景颜色为浅蓝色 */
+         body {
+             background-color: #e0f7fa; /* 浅蓝色背景 */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .chat-container {
+            width: 300px;
+            margin: 50px auto;
+            background: #e0f7fa; /* 浅蓝色背景 */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .chat-body {
+            height: 300px;
+            padding: 10px;
+            overflow-y: auto;
+            background: #b2ebf2; /* 更浅的蓝色背景 */
+        }
+        .chat-message {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            max-width: 70%;
+        }
+        .user-message {
+            background: #e0e0e0;
+            margin-left: auto;
+        }
+        .smart-reply {
+            background: #d4edda;
+        }
+        .chat-input {
+            padding: 10px;
+            background: #fff;
+        }
+        .chat-input input {
+            width: calc(100% - 110px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .chat-input button {
+            width: 100px;
+            padding: 10px;
+            margin-left: 5px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+
+ <p>孟轩跳转1.1.0 pro专业版</p >
+
+<!-- 添加一个链接区域 -->
+<p>点击下方下载影视软件仅支持</p>
+<p>Android安卓系统/HarmonyOS鸿蒙系统！</p >
+     <div class="link-container">
+        <a href="https://down-load.lanrar.com/file/?AWdWaFloADFTWlZuBTABbQE+AjoDu1DaUOYD4lOTAIoD5la8DuJT7lWaCv4EfgdwB2pQewJpCydQZlZ+XGFaKwFqVidZYgA9U2lWZQUOAWkBPwI6A21QalBgAz1TPwA0AzNWMw5jUyFVZQovBG0HMAdpUGACbgs7UG5WYVw3Wn0BcVZxWTkAZlM1VjIFZQEvAWsCMQNzUGBQYQMqUzkAMwMzVjgOMVNiVTAKaQRiBzUHblA0Am8LP1BnVjFcZFo6AWdWZ1lgADZTPFY2BTIBYwFpAjMDaVBkUDQDMlMhAGADc1ZqDnVTclVwCjkEIgdvBzlQaAJuCzxQb1ZgXDNaaAEzVidZcAA9U2hWZQU3AT0BagIwA25QZlBlAzZTOgA1AzRWMA59UylVJQo6BDwHcQdgUGQCags7UGNWYlwzWm8BNVY3WTMAclNwVnAFJgE9AWoCMANtUGtQZAM9UzoAMAM3VjgOdVNyVWoKLARtBzUHZFB7AmwLO1BvVn5cMlppAThWL1k9AGRTK1YmBTUBbwEsAmkDA1AxUDwDOFM/" target="_blank"rel="noopener noreferrer">爱看视频</a >
+        <a href="https://down-load.lanrar.com/file/?UzUGOAo7BTRTWgY+AzZSPlBvBz9VYQtiA30DdlAhVjAJa1Q1D38PLVUwVzEFYFZnVjQGLl8xVz0GLwRjUHxbMVN1BjcKPgU9U2AGDwM+UjdQNwczVTILMAM9Az1QPlZnCTFUNw90Dz1VcFc8BWNWZFY5BjVfOFdtBjgENFAqWypTIwZsCmUFYVM3BmQDeFJjUD0HLVU7CzkDKwNmUDlWZAlqVDAPZw8/VTdXZQU1VmdWbwZiXzRXZwYyBDVQNFtqUzIGYgpvBTRTYAYxAzNSMVBoB2BVOws5AzIDK1BtVicJYlQlDycPKFVmV3MFOFYzVjEGMF81V2wGNQQ6UD9bblN1BiUKPgU8U2AGNgNqUmJQPQcwVT4LOwM3AzBQNFZkCThULQ98D31VZVdtBSZWalY9BjRfMldhBjMEMVA4W2JTYAZhCnEFJFN1BicDalJiUD0HMFU6Cz8DNAMxUDhWbwk+VCUPJw8yVXNXPAViVm5WIgYyXzJXbQYvBDBQPltjU30GaApnBX9TIwY0AzhSJFBkB11VaQtiAzkDNQ==" target="_blank"rel="noopener noreferrer">可可影视（主用）</a >
+        <a href="https://dl.kekedy.app/target/c1/kkys-gb6-v30108-1h.apk" target="_blank"rel="noopener noreferrer">可可影视（备用1）</a >
+     </div>
+<p>点击下方跳转网址！</p>
+<p>可可影视--推荐使用--</p >
+
+        <a href="https://www.kkys01.com" target="_blank"rel="noopener noreferrer">可可（推荐）</a >
+         <a href="https://www.kkys02.com" target="_blank"rel="noopener noreferrer">可可（主用）</a >
+          <a href="https://www.kkys03.com" target="_blank"rel="noopener noreferrer">可可（备用1）</a >
+     </div>
+
+<!-- 添加一个链接区域 -->
+<p>新视觉影院--推荐使用--</p >
+     <div class="link-container">
+        <a href="https://www.80yy3.com/" target="_blank"rel="noopener noreferrer">6080（最新）</a >
+        <a href="https://www.80yy3.com/" target="_blank"rel="noopener noreferrer">爱看影院（备用1）</a >
+        <a href="https://www.80yy3.com/" target="_blank"rel="noopener noreferrer">6080（备用3）</a >
+        <a href="https://www.6080yy3.com/" target="_blank"rel="noopener noreferrer">6080（备用4）</a >
+        <a href="https://www.6wyy.com/" target="_blank"rel="noopener noreferrer">6080（备用5）</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+         <a href="https://jjvlog.com/" target="_blank"rel="noopener noreferrer">久久影视</a >
+           </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://www.77ys.me/" target="_blank"rel="noopener noreferrer">77影视</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://iqiyis.com/browse/" target="_blank"rel="noopener noreferrer">iQIYIs电影库</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://citytv.cc/" target="_blank"rel="noopener noreferrer">Movies星辰影院</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://www.ajeee.com/" target="_blank"rel="noopener noreferrer">Nike尼克影视</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://www.725998.com/" target="_blank"rel="noopener noreferrer">茶杯虎🐅影视</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="http://www.dianyinggou.com/" target="_blank"rel="noopener noreferrer">电影狗🐕</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://www.kanjuw.net/" target="_blank"rel="noopener noreferrer">看剧网</a >
+     </div>
+<p></p>
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+        <a href="https://www.kanying.org/" target="_blank"rel="noopener noreferrer">看影网</a >
+     </div>
+
+    <div class="chat-container">
+        <div class="chat-body" id="chatBody">
+            <!-- 消息显示区域 -->
+            <div class="chat-message user-message">
+                您好！孟轩智能客服8727为您服务！亲，您如果想获取更多消息--输入001！
+            </div>
+        </div>
+        <div class="chat-input">
+            <!-- 用户输入区域 -->
+            <input type="text" id="userInput" placeholder="孟轩8727~输入您的问题...">
+            <button onclick="sendMessage()">--发送消息--</button>
+        </div>
+    </div>
+
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+
+         <p>通道以通过HTTP协议跳转网站，为您的安全保障！</p >
+
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+
+         <p>@1.1.0--网页由孟轩科技所有</p >
+
+<!-- 添加一个链接区域 -->
+
+     <div class="link-container">
+<p>快手号：tmx20120315</p >
+
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById('userInput').value;
+            if (userInput.trim() !== "") {
+                // 显示用户消息
+                var chatBody = document.getElementById('chatBody');
+                var messageDiv = document.createElement('div');
+                messageDiv.classList.add('chat-message', 'user-message');
+                messageDiv.textContent = userInput;
+                chatBody.appendChild(messageDiv);
+
+                // 清空输入框
+                document.getElementById('userInput').value = "";
+
+                // 模拟智能回复
+                var reply = getSmartReply(userInput);
+                var replyDiv = document.createElement('div');
+                replyDiv.classList.add('chat-message', 'smart-reply');
+                replyDiv.textContent = reply;
+                chatBody.appendChild(replyDiv);
+
+                // 滚动到最新消息
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }
+        }
+ function handleKeyDown(event) {
+             if (event.key === 'Enter') {
+                 event.preventDefault(); // 阻止默认行为
+                 sendMessage(); // 调用发送消息的函数
+             }
+         }
+
+
+        function getSmartReply(message) {
+           
+            var replies = {
+                 '014': '孟轩智能客服1.0.9，制作人：孟轩科技，正在持续更新中，如有BUG（错误）请反馈给管理员！',
+                     '012': '亲，如有BUG（错误）请反馈给管理员：孟轩科技',
+                     '你好': '8032很高兴为您服务！',
+                     '011': '亲，是可以的，在下载完应用之后，按新用户注册可可影视的方法，进行登录即可！',
+                     '005': '亲，直接点击网页下方进行访问！如果全部使用后皆无法服务请联系管理员解决！',
+                     '007': '亲，请您放心使用，绝对不含病毒的！',
+                     '008': '亲，请您放心使用，绝对不会泄露信息的哦！',
+                     '再见': '亲，再见。',
+                     '015': '亲，改网页技术含量较小，目前开源！',
+                     '013': '亲，我是智能客服，回答的问题有限！如果您想问问题，请输入更多，复制您想问的问题，填入，并点击发送消息即可！注意，不要漏字，或错字哦！',
+                     '009': '亲，不是的，但推荐您登录，登录后可有观看记录，还可以收藏影视哦！',
+                     '003': '亲，您点击可可影视右上角人物图标登录，在出现的注册界面输入任意内容即可！',
+                     '004': '亲，点击网页下方进行访问即可！如果访问到恶意网站请您关闭！勿相信其内容！勿下载其软件！',
+                     '010': '亲，您需新用户注册可可影视的方法，进行登录，如果已经登录，或登录后依然无法使用，您就需要联系管理员：孟轩科技',
+                     '001': '好的！热门问题：可可影视网址跳转--输入002、新用户如何注册可可影视？--输入003、网址如何使用？--输入004、网址无法打开怎么办？--输入005、网址能打开，但加载不出来？--输入006、是否含有病毒？--输入007、是否会泄露隐私？--输入008、一定要登录可可影视吗？--输入009、历史记录不见了怎么办？--输入010、是否可以下载可可影视？--输入011、发现BUG（错误）怎么办？--输入012、为什么会提示无法回答您的问题？--输入013、关于我们--输入014、网页源代码查询--输入015。',
+                     '002': '亲，点击网页下方进行访问即可！如果访问到恶意网站请您关闭！勿相信其内容！勿下载其软件！',
+                       '006': '亲，点击播放后，加载不出来，您可以试试更换线路，在标题下方有个选集播放的地方，在选集播放的后方就会出现——超清、4K（高峰不卡）等，您直接点击即可！',
+                // 添加更多预设回复
+            };
+            return replies[message] || '嗯！对不起，孟轩8727无法回答您的问题！亲，您如果想获取更多信息--输入001';
+        }
+    </script>
+</body>
+</html>
